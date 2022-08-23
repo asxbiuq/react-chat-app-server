@@ -17,15 +17,5 @@
     "paths": {
       "@/*": ["./src/*"] //添加路径别名
     }
-  },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "./auto-imports.d.ts",
-    "./env.d.ts",
-    "./env.development.d.ts",
-    "src/types/index.d.ts"
-  ]
+  }
 }

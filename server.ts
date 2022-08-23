@@ -4,7 +4,11 @@ import users from './User'
 
 const io = new Server(8080)
 console.log('Server...')
-
+interface User{
+  id:string
+  name:string
+  room:string
+}
 
 io.on("connect", (socket) => {
   console.log(`connect ${socket.id}`)
